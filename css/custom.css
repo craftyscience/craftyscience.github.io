@@ -223,3 +223,11 @@
     .popover-item:first-child .popover-link:hover:after {
       border-bottom-color: #33C3F0; }
   }
+
+.navbar-nav {
+    display: inline-block;
+}
+
+.navbar-default {
+    text-align: center;
+}
