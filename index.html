@@ -33,7 +33,7 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
-<body>
+<body class="code-snippets-visible">
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -44,8 +44,20 @@
           A project from the <a href="https://www1.uwe.ac.uk/et/research/csrc.aspx">Physical Computing Group</a> at University of West of England (UWE), looking at modern day 
           science through the lens and application of craft.
         </p>
-        <br>
-        <br>
+        <div class="value-props row">
+          <div class="four columns value-prop">
+            <img class="value-img" src="images/illustration1.png">
+              Details...
+          </div>
+          <div class="four columns value-prop">
+            <img class="value-img" src="images/illustration2.png">
+            Details...
+          </div>
+          <div class="four columns value-prop">
+            <img class="value-img" src="images/illustration3.png">
+            Details...
+          </div>
+        </div>
     </section>
 
     <div class="navbar-spacer"></div>
@@ -53,6 +65,21 @@
         <div class="container">
             <ul class="navbar-list">
                 <li class="navbar-item"><a class="navbar-link" href="#intro">Intro</a></li>
+                
+                <li class="navbar-item">
+                  <a class="navbar-link" href="#" data-popover="#sensorsNavPopover">Sensor</a>
+                  <div id="sensorsNavPopover" class="popover">
+                    <ul class="popover-list">
+                      <li class="popover-item">
+                        <a class="popover-link" href="#sensor">The Sensor</a>
+                      </li>
+                      <li class="popover-item">
+                        <a class="popover-link" href="#liveview">Live view</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                
                 <li class="navbar-item">
                     <a class="navbar-link" href="#" data-popover="#workshopsNavPopover">Workshops</a>
                     <div id="workshopsNavPopover" class="popover">
@@ -72,19 +99,7 @@
                       </ul>
                     </div>
                 </li>
-                <li class="navbar-item">
-                  <a class="navbar-link" href="#" data-popover="#sensorsNavPopover">Sensor</a>
-                  <div id="sensorsNavPopover" class="popover">
-                    <ul class="popover-list">
-                      <li class="popover-item">
-                        <a class="popover-link" href="#sensor">The Sensor</a>
-                      </li>
-                      <li class="popover-item">
-                        <a class="popover-link" href="#license">Live view</a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
+                
                 <li class="navbar-item">
                   <a class="navbar-link" href="#" data-popover="#moreNavPopover">More</a>
                   <div id="moreNavPopover" class="popover">
@@ -93,7 +108,7 @@
                         <a class="popover-link" href="https://github.com/craftyscience">On Github</a>
                       </li>
                       <li class="popover-item">
-                        <a class="popover-link" href="#license">License</a>
+                        <a class="popover-link" href="https://raw.githubusercontent.com/craftyscience/craftyscience.github.io/main/LICENSE">License</a>
                       </li>
                       <li class="popover-item">
                         <a class="popover-link" href="#contributors">Contributors</a>
@@ -101,8 +116,70 @@
                     </ul>
                   </div>
                 </li>
+
             </ul>
         </div>
+      </nav>
+
+      <!-- What is Crafty Science -->
+      <div class="docs-section" id="intro">
+        <h6 class="docs-header">What is Crafty Science?</h6>
+        <p>
+          Add text about Crafty Science and so on...
+        </p>
+        <p>Love Crafty Science and want to Tweet about it, then we love that <3</p>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://craftyscience.github.io/" data-text="Skeleton - A dead simple, responsive boilerplate." data-via="dhg" data-related="dhg">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </div>
+
+      <!-- Sensor -->
+      <div class="docs-section" id="sensor">
+        <h6 class="docs-header">The Sensor</h6>
+        <p>
+          Add text about Sensor and so on...
+        </p>
+      </div>
+
+      <!-- Live View -->
+      <div class="docs-section" id="liveview">
+        <h6 class="docs-header">View</h6>
+        <p>
+          Add text about Live View and so on...
+        </p>
+      </div>
+
+      <!-- Zine -->
+      <div class="docs-section" id="workshopzine">
+        <h6 class="docs-header">The Zine</h6>
+        <p>
+          Add text about Zine and so on...
+        </p>
+      </div>
+
+      <!-- Mobile -->
+      <div class="docs-section" id="workshopmobile">
+        <h6 class="docs-header">The Mobile</h6>
+        <p>
+          Add text about Mobile and so on...
+        </p>
+      </div>
+
+      <!-- Kit -->
+      <div class="docs-section" id="workshopkit">
+        <h6 class="docs-header">The Kit</h6>
+        <p>
+          Add text about Kit and so on...
+        </p>
+      </div>
+
+      <!-- Contributors -->
+      <div class="docs-section" id="contributors">
+        <h6 class="docs-header">Contributors</h6>
+        <p>
+          Add text about Contributors and so on...
+        </p>
+      </div>
+
     </div>
 </div>
 
