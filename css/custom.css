@@ -1,5 +1,23 @@
 .container {
-    max-width: 800px; }
+    background: url(../images/paper1.jpeg) center center;
+    /* opacity: .4;  */
+    /* max-width: 800px;  */
+  }
+  
+  /* .container:before{
+    z-index:-1;
+    position:absolute;
+    left:0;
+    top:0;
+    content: url(../images/paper1.jpeg);
+    opacity:0.4;
+} */
+
+  .background {
+    background-image: url(../images/paper1.jpeg);
+    opacity: 0.4;
+  }
+
   .header {
     margin-top: 6rem;
     text-align: center; }
@@ -228,6 +246,7 @@
     display: inline-block;
 }
 
-.navbar-default {
-    text-align: center;
-}
+/* body {
+  background: url(../images/paper1.jpeg) center center;
+  background-size: cover; 
+} */

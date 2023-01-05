@@ -16,6 +16,8 @@ $(document).ready(function() {
           "'": '&#39;',
           "/": '&#x2F;'
         }
+
+    var footerHeight = $('.footer').height()+30; // "+30" footer on to add space
   
     function init() {
       $window.on('scroll', onScroll)
@@ -24,6 +26,9 @@ $(document).ready(function() {
       $document.on('click', closePopover)
       $('a[href^="#"]').on('click', smoothScroll)
       buildSnippets();
+
+      
+      $('body').css('margin-bottom',footerHeight);
     }
   
     function smoothScroll(e) {
